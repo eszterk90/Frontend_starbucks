@@ -16,6 +16,10 @@ a {
   color: black;
 }
 
+a:hover {
+    color: #008248;
+}
+
 nav {
   display: flex;
   position: relative;
@@ -84,7 +88,7 @@ nav {
   font-weight: bold;
 }
 
-.row {
+.sec-1{
   background-color: #d4e9e2;
   display: flex;
   justify-content: space-around;
@@ -153,7 +157,6 @@ input ~ .tab {
 #tab4:checked ~ .tab.content_4,
 #tab5:checked ~ .tab.content_5 {
   display: flex;
-  height: 200px;
   padding: 40px 200px;
   justify-content: space-evenly;
   background-color: #d4e9e2;
